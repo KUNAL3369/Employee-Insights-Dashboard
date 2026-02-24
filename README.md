@@ -1,14 +1,11 @@
 ```markdown
 # Employee Insights Dashboard
-
-A responsive React application built as part of the ReactJS assignment.  
+ 
 The app demonstrates authentication flow, API integration, state handling, camera capture, and data visualization.
 
 ## 🌐 Live Demo
 
 **[View Live Applicati(https://employee-insights-dashboard-1qg1edd3t-kunal3369s-projects.vercel.app/)**
-
----
 
 ## 🚀 Live Features
 
@@ -20,17 +17,12 @@ The app demonstrates authentication flow, API integration, state handling, camer
 - Protected routes with logout
 - Clean, responsive UI
 
----
+##  Demo Credentials
 
-## 🔐 Demo Credentials
-
-```
 Username: testuser
 Password: Test123
 
----
-
-## 🧱 Tech Stack
+##  Tech Stack
 
 - React (Vite)
 - React Router
@@ -39,10 +31,7 @@ Password: Test123
 - Browser MediaDevices API (camera)
 - REST API integration
 
----
-
-## 📂 Project Structure
-
+##  Project Structure
 
 src/
 ├── pages/
@@ -55,11 +44,10 @@ src/
 │   └── api.js
 ├── components/
 └── App.jsx
-```
 
----
 
-## 🔄 Application Flow
+
+## Application Flow
 
 ### 1. Login Page
 - Validates hardcoded credentials
@@ -87,28 +75,24 @@ src/
 - Plots salaries of first 10 employees
 - Built using Recharts
 
----
-
-## 📡 API Used
+##  API Used
 
 **Endpoint**
-```
+
 POST https://backend.jotish.in/backend_dev/gettabledata.php
-```
+
 
 **Payload**
-```json
+json
 {
   "username": "test",
   "password": "123456"
 }
-```
 
----
 
-## ▶️ How to Run Locally
+##  How to Run Locally
 
-```bash
+bash
 # 1. Install dependencies
 npm install
 
@@ -117,11 +101,9 @@ npm run dev
 
 # 3. Open browser
 http://localhost:5173
-```
 
----
 
-## 🧪 Key Implementation Notes
+##  Key Implementation Notes
 
 * Handles API array response safely
 * Prevents crashes on empty data
@@ -129,32 +111,3 @@ http://localhost:5173
 * Webcam cleaned up on unmount
 * Responsive layout with centered containers
 * Hover states added for better UX
-
----
-
-## ✨ Possible Improvements (Future)
-
-* Add search and filtering
-* Add pagination
-* Persist captured photos
-* Add map visualization
-* Add unit tests
-
----
-
-## 📸 Deliverables Included
-
-* ✅ Fully working source code
-* ✅ Screenshots of major screens
-* ✅ Screen recording of full flow
-
----
-
-## 👨‍💻 Author
-
-**Kunal Prabhakar**  
-Frontend Developer
-
-- GitHub: [KUNAL3369](https://github.com/KUNAL3369)
-- LinkedIn: [prabhakarkunal](https://linkedin.com/in/prabhakarkunal)
-```
