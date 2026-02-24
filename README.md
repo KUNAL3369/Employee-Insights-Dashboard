@@ -14,6 +14,15 @@ https://employee-insights-dashboard-1qg1edd3t-kunal3369s-projects.vercel.app/
 
 ---
 
+
+## 🌐 Screenshots of important screens & Screen recording of end-to-end working app
+
+
+**Googledrive URL:**  
+https://drive.google.com/drive/folders/1NVvpD5HauSukGgu-_RdpjfwpACMyzGj8?usp=sharing
+
+---
+
 ## 🚀 Features
 
 - Static login with validation  
